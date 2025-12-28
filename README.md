@@ -1,2 +1,28 @@
 # GoMoto
 Rutas moteras en Valencia - GoMoto
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>GoMoto</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" />
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  />
+</head>
+<body>
+  <header>
+    <h1>GoMoto</h1>
+    <p>Rutas moteras en Valencia</p>
+  </header>
+
+  <div id="map"></div>
+
+  <section id="routes"></section>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
